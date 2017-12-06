@@ -1,9 +1,9 @@
 # Refactor for elegance
 def shout_backwards(string)
-  all_caps  = string.upcase
-  backwards = all_caps.reverse
-  result    = backwards + "!!!"
-
+  # all_caps  = string.upcase
+  # backwards = all_caps.reverse
+  # result    = backwards + "!!!"
+  result = string.upcase.reverse + "!!!"
   return result
 end
 
